@@ -73,9 +73,9 @@ body {
     box-shadow: 0 0px 40px #FFF2;
      border: solid 2px #FFF;
     background-color: $modal-color;
+    display: none;
     transition: all ease .3s;
     transform: translateY(110%);
-    display: none;
     .close-btn {
         position: absolute;
         top: 5px;
@@ -91,7 +91,7 @@ body {
             color: #FFF;
             border-top: 1px solid #FFF;
             border-bottom: 1px solid #FFF;         
-            // list-style: disc;
+            list-style: "> ";
         }
         .output-line--error {
             background-color: $error-backgroud-color;
@@ -100,7 +100,7 @@ body {
 }
 
 .output--active {
-    transition: all ease .3s;
     display: block;
+    transition: all ease .3s;
     transform: translateY(0);
 }

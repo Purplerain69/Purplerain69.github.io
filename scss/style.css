@@ -63,9 +63,9 @@ body {
   box-shadow: 0 0px 40px rgba(255, 255, 255, 0.1333333333);
   border: solid 2px #FFF;
   background-color: #262424;
+  display: none;
   transition: all ease 0.3s;
   transform: translateY(110%);
-  display: none;
 }
 .output .close-btn {
   position: absolute;
@@ -83,13 +83,14 @@ body {
   color: #FFF;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
+  list-style: "> ";
 }
 .output .output__results .output-line--error {
   background-color: #660000;
 }
 
 .output--active {
-  transition: all ease 0.3s;
   display: block;
+  transition: all ease 0.3s;
   transform: translateY(0);
 }/*# sourceMappingURL=style.css.map */

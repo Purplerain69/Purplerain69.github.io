@@ -1,4 +1,4 @@
-export default output = {
+export default{
     $output: document.querySelector(".output__results"),
     log(args) {
         const $printLine = document.createElement("li");
